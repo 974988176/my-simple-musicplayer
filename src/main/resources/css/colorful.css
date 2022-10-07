@@ -1,0 +1,13 @@
+@import url("common.css");
+
+.root {
+    -fx-background-color: null;
+    -base-hover-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #fa00fdff 0.0%, #02dcddff 100.0%);
+}
+
+
+/*按钮按下时，加深颜色*/
+.add-btn:pressed {
+    /*渐变色不能使用derive函数 derive(-base-hover-color, -20%);*/
+    -fx-background-color: #31dcbd;
+}

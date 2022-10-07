@@ -1,0 +1,6 @@
+@import url("common.css");
+
+.root {
+    -fx-background-color: null;
+    -base-hover-color: #66ccff;
+}
